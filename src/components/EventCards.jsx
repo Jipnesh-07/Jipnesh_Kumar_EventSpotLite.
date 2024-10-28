@@ -4,6 +4,8 @@ import Section from "./Section";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 
+const defaultImageUrl = "./src/assets/hero/music.jpg";
+
 const EventCards = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -58,9 +60,9 @@ const EventCards = () => {
                 style={{ clipPath: "url(#benefits)" }}
               >
                 <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
-                  {item.imageUrl && (
+                  {defaultImageUrl && (
                     <img
-                      src={item.imageUrl}
+                      src={defaultImageUrl}
                       width={380}
                       height={362}
                       alt={item.title}
@@ -96,9 +98,9 @@ const EventCards = () => {
               </button>
 
               {/* Event Image (left side) */}
-              {selectedEvent.imageUrl && (
+              {defaultImageUrl && (
                 <img
-                  src={selectedEvent.imageUrl}
+                  src={defaultImageUrl}
                   alt={selectedEvent.name}
                   className="w-1/2 h-auto rounded-l-lg object-cover"
                 />
@@ -132,3 +134,6 @@ const EventCards = () => {
 };
 
 export default EventCards;
+
+// // Default image URL for all event cards
+// const defaultImageUrl = "./src/assets/hero/music.jpg";
