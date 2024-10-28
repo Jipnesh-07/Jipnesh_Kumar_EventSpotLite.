@@ -1,7 +1,12 @@
 import {
   discordBlack,
   facebook,
- 
+  benefitCard1,
+benefitCard2,
+benefitCard3,
+benefitCard4,
+benefitCard5,
+benefitCard6,
   instagram,
 
   
@@ -55,7 +60,7 @@ export const events = [
       "Experience an exciting evening with live performances from local bands and artists, showcasing a variety of musical genres and talent. Perfect for music enthusiasts and those looking to enjoy a lively atmosphere.",
     date: "October 29, 2024",
     location: "Downtown Park",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: benefitCard1,
     imageUrl: "./assets/hero/music.jpg",
   },
   {
@@ -65,7 +70,7 @@ export const events = [
       "Join us for a cultural journey through the city’s art district, where you can explore local galleries, admire unique art pieces, and meet talented artists in their studios. A great event for art lovers and the creatively curious.",
     date: "November 3, 2024",
     location: "City Art District",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: benefitCard2,
     imageUrl: "../public/art.jpg",
   },
   {
@@ -75,7 +80,7 @@ export const events = [
       "Indulge in the city’s finest street food as the best food trucks gather in one place, offering a mouth-watering variety of cuisines. Perfect for foodies who love exploring diverse flavors.",
     date: "November 5, 2024",
     location: "Riverfront Plaza",
-    backgroundUrl: "../src/assets/benefits/card-3.svg",
+    backgroundUrl: benefitCard3,
     imageUrl: "../src/assets/hero/foodtruck.jpg",
   },
   {
@@ -85,7 +90,7 @@ export const events = [
       "Enjoy a night of classic cinema under the open sky. Bring your blankets and relax as we screen some of the most beloved films in an outdoor setting.",
     date: "November 8, 2024",
     location: "Greenway Amphitheater",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    backgroundUrl: benefitCard4,
     imageUrl: "../src/assets/hero/film.jpg",
   },
   {
@@ -95,7 +100,7 @@ export const events = [
       "Sample a wide selection of craft beers from local breweries, featuring seasonal specialties and unique brews. This event is a must for beer aficionados and socializers.",
     date: "November 12, 2024",
     location: "Market Square",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    backgroundUrl: benefitCard5,
     imageUrl: "/assets/hero/beer.jpg",
   },
   {
@@ -105,7 +110,7 @@ export const events = [
       "Kick off the holiday season by shopping for handmade gifts and crafts from local artisans. Discover unique items and support the local community.",
     date: "November 15, 2024",
     location: "Central Marketplace",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: benefitCard6,
     imageUrl: "../src/assets/hero/market.jpg",
   },
   {
@@ -115,7 +120,7 @@ export const events = [
       "Laugh the night away with stand-up performances from some of the funniest comedians in the region. A perfect night out for those who love humor and a good time.",
     date: "November 20, 2024",
     location: "Comedy Club",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: benefitCard1,
     imageUrl: "../src/assets/hero/comedynight.jpg",
   },
   {
@@ -125,7 +130,7 @@ export const events = [
       "Refresh your mind and body with a calming yoga session amidst nature. Suitable for all skill levels, this event is designed for relaxation and self-care.",
     date: "November 25, 2024",
     location: "Willow Park",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: benefitCard2,
     imageUrl: "../src/assets/hero/yoga.jpg",
   },
   {
@@ -135,7 +140,7 @@ export const events = [
       "Join us for an unforgettable night as we ring in the New Year together with live music, food, and a spectacular midnight fireworks display.",
     date: "December 31, 2024",
     location: "City Plaza",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: benefitCard3,
     imageUrl: "../src/assets/hero/newyear.jpg",
   },
 ];
