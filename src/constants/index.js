@@ -56,7 +56,7 @@ export const events = [
     date: "October 29, 2024",
     location: "Downtown Park",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    imageUrl: "../src/assets/hero/music.jpg",
+    imageUrl: "./assets/hero/music.jpg",
   },
   {
     id: "2",
