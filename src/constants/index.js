@@ -66,7 +66,7 @@ export const events = [
     date: "November 3, 2024",
     location: "City Art District",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
-    imageUrl: "../src/assets/hero/art.jpg",
+    imageUrl: "../public/art.jpg",
   },
   {
     id: "3",
@@ -96,7 +96,7 @@ export const events = [
     date: "November 12, 2024",
     location: "Market Square",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    imageUrl: "../src/assets/hero/beer.jpg",
+    imageUrl: "/assets/hero/beer.jpg",
   },
   {
     id: "6",
